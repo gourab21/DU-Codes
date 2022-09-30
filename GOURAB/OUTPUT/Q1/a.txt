@@ -1,0 +1,12 @@
+IP ADDRESS       -  192.168.50.126
+SUBNET MASK -  255.255.255.0
+ that means last 8 bits of subnet mask is 0. Hence address range
+(192.168.50.0 - 192.168.50.255)
+
+Network Address - 192.168.50.0
+Broadcast Address - 192.168.50.255
+
+So Available address range - (192.168.50.1 - 192.168.50.254)
+No. of Devices - 256 - 2 = 254
+
+
