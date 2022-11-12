@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.section-main {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.heading-primary {
+  font-size: 3.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  background-color: aqua;
+  border-radius: 3px;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.pet-box ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding: 0 2.4rem;
+}
+
+.pet-box li {
+  font-size: 1.8rem;
+}

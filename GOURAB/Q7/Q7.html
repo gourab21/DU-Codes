@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Q7</title>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#box").load("https://learnwebcode.github.io/json-example/animals-1.json", function(responseTxt, statusTxt, jqXHR){
+            if(statusTxt == "success"){
+                alert("New content loaded successfully!");
+            }
+            if(statusTxt == "error"){
+                alert("Error: " + jqXHR.status + " " + jqXHR.statusText);
+            }
+        });
+    });
+});
+</script>
+</head>
+<body>
+    <div id="box">
+        <h2>Click button to load content</h2>
+    </div>
+    <button type="button">Load Content</button>
+</body>
+</html>

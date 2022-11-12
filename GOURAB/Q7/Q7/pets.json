@@ -1,0 +1,20 @@
+{
+  "pets": [
+    {
+      "name": "Snowhite",
+      "age": 2,
+      "weight": 5,
+      "type": "Cat",
+      "breed": "Persian",
+      "hobbies": "Eating, Relaxing"
+    },
+    {
+      "name": "Leo",
+      "age": 6,
+      "weight": 11,
+      "type": "Dog",
+      "breed": "Bulldog",
+      "hobbies": "Sleeping, Running"
+    }
+  ]
+}
